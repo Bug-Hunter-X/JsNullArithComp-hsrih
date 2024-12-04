@@ -1,0 +1,3 @@
+# JavaScript Loose vs. Strict Comparison with Null in Arithmetic
+
+This code demonstrates a common, yet subtle, error in JavaScript related to loose (`==`) versus strict (`===`) comparison when dealing with `null` values in arithmetic operations.  The `foo` function uses strict equality (`===`), while `bar` uses loose equality (`==`).  The difference in behavior becomes apparent when comparing numbers with strings. In the case of loose comparison, type coercion can lead to unexpected results.
